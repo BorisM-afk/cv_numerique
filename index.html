@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/reset.css">
+   <link rel="stylesheet" href="./css/styles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="./css/root.css">
+   <link rel="icon" type="image/png" href="./images/favicon.png">
+   <title>Mon CV numérique - Boris MILETIC -</title>
+</head>
+
+<body>
+
+   <!--- Fond Sombre à l'ouverture de la carte -->
+   <div class="overlay" id="fond-sombre" onclick="fermerLesCartes()"></div>
+
+   <header>
+      <div class="header-img">
+         <p class="header-tag"><i class="fa-solid fa-code"></i> Étudiant B.U.T MMI — IUT de Haguenau</p>
+         <h1>Boris Miletic</h1>
+         <h2>Votre futur apprenti <span>Développeur Web</span></h2>
+         <div class="header-actions">
+            <a href="./download/CV_Boris_MILETIC.pdf" download class="header-btn">
+               <i class="fa-solid fa-download"></i> Télécharger mon CV
+            </a>
+            <a href="./download/CV_graphique_Boris_MILETIC.pdf" class="header-btn">
+               <i class="fa-solid fa-palette"></i> Télécharger mon CV graphique
+            </a>
+            <a href="https://www.linkedin.com/in/boris-miletic-867935315" target="_blank" class="header-btn">
+               <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+         </div>
+      </div>
+
+      <div class="contenu-header-1">
+         <div class="texte-header-1">
+            <h3><i class="fa-solid fa-person-chalkboard"></i> Courte présentation :</h3>
+            <p>Je m'appelle Boris Miletic, j'ai 20 ans et je suis actuellement en recherche d'alternance dans le domaine du développement web pour poursuivre ma formation actuelle avec un pied dans le monde professionnel.</p>
+         </div>
+      </div>
+
+      <div class="mes-projets">
+         <h2><i class="fa-solid fa-diagram-project"></i> Mes Projets</h2>
+         <div class="contenu-projets">
+            <div class="projets">
+               <div>
+                  <img src="./images/screen_dishonored.png" alt="Aperçu du projet Dishonored" class="img-projet">
+               </div>
+               <div>
+                  <h3><i class="fa-solid fa-code"></i>Dishonored Fan Site</h3>
+                  <span>- Bases en HTML et CSS -</span>
+                  <p>Le premier site web que j'ai réalisé de A à Z, en autonomie. Il porte sur un jeu vidéo de mon
+                     choix. Le but était de créer un site avec 3 pages pour démontrer nos connaissances des bases en
+                     HTML et CSS.</p>
+                  <a href="./site_dishonored/accueil.html" target="_blank">Voir le projet - Dishonored Fan Site</a>
+               </div>
+            </div>
+
+            <div class="projets">
+               <div>
+                  <img src="./images/screen_sae.png" alt="Aperçu du projet Climbscope" class="img-projet">
+               </div>
+               <div>
+                  <h3><i class="fa-solid fa-code"></i>Projet Climbscope</h3>
+                  <span>- Utilisation du TWIG -</span>
+                  <p>Un projet de développement à sujet libre réalisé dans le cadre d'une situation d'apprentissage
+                     et
+                     d'évaluation (SAÉ), qui sont nos projets notés durant l'année. Ce projet met en avant mes
+                     compétences
+                     en HTML/CSS, PHP et l'utilisation de templates TWIG.</p>
+                  <span class="ps">(N'hésitez pas à recharger les pages, il peut y avoir des messages d'erreurs le temps
+                     que vendor charge)</span>
+                  <a href="http://miletic.alwaysdata.net" target="_blank">Voir le projet - Climbscope</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+   </header>
+
+   <main>
+
+      <div class="contenu-intro-1">
+         <div class="intro-1">
+            <div class="img-contact">
+               <div class="img-intro">
+                  <img src="./images/pp_boris.png" alt="Photo de Boris Miletic" class="photo-boris">
+               </div>
+               <div class="infos-contact">
+                  <h3><i class="fa-solid fa-address-card"></i> Mes Informations de contact :</h3>
+                  <div>
+                     <p><i class="fa-solid fa-envelope"></i> <a
+                           href="mailto:boris.miletic.pro@gmail.com">boris.miletic.pro@gmail.com</a>
+                     </p>
+                     <p><i class="fa-solid fa-phone"></i> 07 83 03 71 26</p>
+                  </div>
+               </div>
+            </div>
+            <div class="sous-contenu-intro-1">
+               <span class="nom">Boris Miletic</span>
+               <p><i class="fa-solid fa-cake-candles"></i> 20 ans</p>
+               <p><i class="fa-solid fa-briefcase"></i> En recherche d'alternance Développeur Full-Stack ou
+                  Applicatif</p>
+               <p><i class="fa-solid fa-map-pin"></i>Ostwald</p>
+            </div>
+         </div>
+         <div class="button-content">
+            <div class="button">
+               <a href="./download/CV_Boris_MILETIC.pdf" download><i class="fa-solid fa-download"></i>Mon CV ici</a>
+               <a href="./download/CV_graphique_Boris_MILETIC.pdf"><i class="fa-solid fa-palette"></i> CV Graphique</a>
+               <a href="https://www.linkedin.com/in/boris-miletic-867935315" target="_blank"><i
+                     class="fa-brands fa-linkedin"></i>LinkedIn</a>
+               <a href="mailto:boris.miletic.pro@gmail.com"><i class="fa-solid fa-envelope"></i>Contactez-moi</a>
+            </div>
+         </div>
+      </div>
+
+      <div class="matos-page">
+
+         <aside class="sidebar">
+            <div class="sommaire">
+               <h3><i class="fa-solid fa-compass"></i> Sommaire</h3>
+               <ul>
+                  <div class="menu">
+                     <li><a href="#presentation"><i class="fa-solid fa-angle-right"></i> Présentation</a></li>
+                     <div class="sous-menu">
+                        <ul>
+                           <li><a href="#ce-que-je-recherche"><i class="fa-solid fa-angle-right"></i> Ce que je
+                                 recherche</a></li>
+                           <li><a href="#a-propos-de-moi"><i class="fa-solid fa-angle-right"></i> À propos de moi</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <li><a href="#formations"><i class="fa-solid fa-angle-right"></i> Formations</a></li>
+                  <li><a href="#experiences"><i class="fa-solid fa-angle-right"></i> Expériences</a></li>
+                  <li><a href="#competences"><i class="fa-solid fa-angle-right"></i> Compétences</a></li>
+                  <li><a href="#langues"><i class="fa-solid fa-angle-right"></i> Langues</a></li>
+                  <li><a href="#chronologie"><i class="fa-solid fa-angle-right"></i> Mon Parcours</a></li>
+               </ul>
+               <a href="./download/CV_Boris_MILETIC.pdf" download class="sidebar-btn">
+                  <i class="fa-solid fa-download"></i> Retrouvez mon CV ici
+               </a>
+            </div>
+         </aside>
+         <div class="main-content">
+
+            <section class="intro" id="presentation">
+               <div>
+                  <h2><i class="fa-solid fa-user"></i>Présentation</h2>
+                  <div class="contenu">
+                     <p>Je suis un étudiant en développement web passionné par la création d'expériences numériques
+                        innovantes. Avec une solide formation en programmation et une curiosité insatiable pour les
+                        nouvelles technologies, je souhaite transformer vos idées et celles de nos futurs clients en
+                        interfaces web attirantes. Mon
+                        objectif est de contribuer à des projets qui font une différence tout en continuant à apprendre
+                        et à évoluer dans le domaine du développement web.</p>
+                  </div>
+               </div>
+               <div>
+                  <h2 id="ce-que-je-recherche"><i class="fa-solid fa-search"></i>Ce que je recherche</h2>
+                  <div class="contenu">
+                     <p>Pris de passion pour le développement, je souhaite poursuivre la formation <span
+                           class="italic">B.U.T Métiers du Multimédia et de l'Internet</span> <span class="bold">( MMI
+                           )</span> en alternance, pour pouvoir allier théorie et expérience de terrain. Avec mes bases
+                        solides en Développement <span class="highlight">Front-End</span> et <span
+                           class="highlight">Back-end</span>, je suis persuadé de pouvoir dès à présent apporter ma
+                        pierre à l'édifice que représente le monde numérique que nous construisons de jours en jours.
+                     </p>
+                  </div>
+               </div>
+               <div>
+                  <h2 id="a-propos-de-moi"><i class="fa-solid fa-circle-question"></i>À propos de moi</h2>
+                  <div class="contenu">
+                     <ul>
+                        <li><i class="fa-solid fa-gamepad"></i> Passioné de jeux-vidéos</li>
+                        <li><i class="fa-solid fa-laptop-code"></i> Grand intérêt pour l'informatique et les nouvelles
+                           technologies</li>
+                        <li><i class="fa-solid fa-mountain"></i> Une passion naissante pour l'escalade</li>
+                        <li><i class="fa-solid fa-car"></i> Je suis détenteur du<span class="bold">permis de
+                              conduire</span>ainsi que d'un<span class="bold">véhicule</span></li>
+                     </ul>
+                  </div>
+               </div>
+            </section>
+
+            <section class="formations" id="formations">
+               <h2><i class="fa-solid fa-graduation-cap"></i>Formations</h2>
+               <div class="mes-formations">
+                  <div class="formation-card">
+                     <h3><i class="fa-solid fa-school"></i> B.U.T Métiers du Multimédia et de l'Internet (MMI) <span
+                           class="badge-en-cours">En cours</span></h3>
+                     <p><i class="fa-solid fa-location-dot"></i>IUT de Haguenau - Haguenau</p>
+                     <p><i class="fa-solid fa-calendar"></i>2025 - 2028</p>
+                  </div>
+                  <div class="formation-card">
+                     <h3><i class="fa-solid fa-school"></i> Licence en Sciences Sociales</h3>
+                     <p><i class="fa-solid fa-location-dot"></i>Université de Strasbourg - Strasbourg</p>
+                     <p><i class="fa-solid fa-calendar"></i>2023 - 2024</p>
+                  </div>
+                  <div class="formation-card">
+                     <h3><i class="fa-solid fa-school"></i> Baccalauréat Général - SES / HGGSP</h3>
+                     <p><i class="fa-solid fa-location-dot"></i>Lycée Fustel de Coulanges - Strasbourg</p>
+                     <p><i class="fa-solid fa-calendar"></i>2020 - 2023</p>
+                  </div>
+               </div>
+            </section>
+
+            <section class="experience" id="experiences">
+               <h2><i class="fa-solid fa-briefcase"></i>Expériences Professionnelles</h2>
+
+               <div class="mes-experiences">
+                  <div class="experience-card">
+                     <h3><i class="fa-solid fa-building"></i>Volontaire en Service Civique</h3>
+                     <p><i class="fa-solid fa-location-dot"></i>Unis - Cité Strasbourg</p>
+                     <p><i class="fa-solid fa-calendar"></i> Octobre 2024 - Février 2025</p>
+
+                     <div class="card-description">
+                        <ul>
+                           <li>Accueil de public lors d'évènements.</li>
+                           <li>Organisation d'animations à but médiateur.</li>
+                           <li>Gestion de projet, communication, création de contenu.</li>
+                        </ul>
+                        <p>Formations passées :</p>
+                        <ul>
+                           <li>Formation aux techniques d'animations</li>
+                           <li>Formation à la gestion de projets</li>
+                           <li>Formation aux Droits Culturels</li>
+                           <li>Formation à la médiation culturelle</li>
+                           <li>Formation PSC 1 - Premiers Secours</li>
+                        </ul>
+                     </div>
+
+                     <button class="toggle-btn" onclick="ouvrirCarte(this)">En savoir plus...</button>
+                  </div>
+
+                  <div class="card experience-card">
+                     <h3><i class="fa-solid fa-building"></i>Employé de Réserve</h3>
+                     <p><i class="fa-solid fa-location-dot"></i>Intersport La Vigie - Geispolsheim</p>
+                     <p><i class="fa-solid fa-calendar"></i> Avril 2025 - Août 2025</p>
+
+                     <div class="card-description">
+                        <ul>
+                           <li>Gestion des stocks et inventaire régulier pour assurer la disponibilité des produits en
+                              magasin.</li>
+                           <li>Collaboration avec les autres membres de l'équipe pour assurer une bonne cohésion et un
+                              service optimal.</li>
+                           <li>Accueil des clients, réponse à leurs demandes de renseignements et conseils sur les
+                              produits.</li>
+                           <li>Réception des palettes de marchandises, contrôle et rangement des produits dans la
+                              réserve, évacuation des emballages.</li>
+                        </ul>
+                     </div>
+
+                     <button class="toggle-btn" onclick="ouvrirCarte(this)">En savoir plus...</button>
+                  </div>
+               </div>
+
+               <script src="include/script_button.js"></script>
+
+            </section>
+
+            <section class="competences" id="competences">
+               <h2><i class="fa-solid fa-bolt-lightning"></i>Compétences</h2>
+               <div class="contenu-col">
+                  <div class="hard-skills">
+                     <h3>Compétences Techniques</h3>
+
+                     <div class="skill-bar-item">
+                        <div class="skill-bar-label">
+                           <span><i class="fa-solid fa-code"></i> HTML / CSS</span>
+                           <span class="niveau">Avancé</span>
+                        </div>
+                        <div class="skill-bar-track">
+                           <div class="skill-bar-fill" style="width: 85%"></div>
+                        </div>
+                     </div>
+
+                     <div class="skill-bar-item">
+                        <div class="skill-bar-label">
+                           <span><i class="fa-brands fa-js"></i> JavaScript</span>
+                           <span class="niveau">Débutant</span>
+                        </div>
+                        <div class="skill-bar-track">
+                           <div class="skill-bar-fill" style="width: 20%"></div>
+                        </div>
+                     </div>
+
+                     <div class="skill-bar-item">
+                        <div class="skill-bar-label">
+                           <span><i class="fa-brands fa-php"></i> PHP</span>
+                           <span class="niveau">Intermédiaire</span>
+                        </div>
+                        <div class="skill-bar-track">
+                           <div class="skill-bar-fill" style="width: 50%"></div>
+                        </div>
+                     </div>
+
+                     <div class="skill-bar-item">
+                        <div class="skill-bar-label">
+                           <span><i class="fa-solid fa-database"></i> MySQL</span>
+                           <span class="niveau">Intermédiaire</span>
+                        </div>
+                        <div class="skill-bar-track">
+                           <div class="skill-bar-fill" style="width: 50%"></div>
+                        </div>
+                     </div>
+
+                     <div class="skill-bar-item">
+                        <div class="skill-bar-label">
+                           <span><i class="fa-brands fa-wordpress"></i> WordPress</span>
+                           <span class="niveau">Débutant +</span>
+                        </div>
+                        <div class="skill-bar-track">
+                           <div class="skill-bar-fill" style="width: 40%"></div>
+                        </div>
+                     </div>
+
+                     <div class="skill-bar-item">
+                        <div class="skill-bar-label">
+                           <span><i class="fa-solid fa-file-excel"></i> Pack Office</span>
+                           <span class="niveau">Débutant</span>
+                        </div>
+                        <div class="skill-bar-track">
+                           <div class="skill-bar-fill" style="width: 30%"></div>
+                        </div>
+                     </div>
+
+                  </div>
+                  <div class="soft-skills">
+                     <h3>Compétences Interpersonnelles</h3>
+                     <ul>
+                        <li><i class="fa-solid fa-users"></i> Travail en équipe</li>
+                        <li><i class="fa-solid fa-brain"></i> Résolution de problèmes</li>
+                        <li><i class="fa-solid fa-comment"></i> Communication verbale</li>
+                        <li><i class="fa-solid fa-magnifying-glass"></i> Curiosité</li>
+                        <li><i class="fa-solid fa-user"></i> Autonomie</li>
+                        <li><i class="fa-solid fa-arrows-spin"></i> Polyvalence</li>
+                     </ul>
+                  </div>
+               </div>
+            </section>
+
+            <section class="langues" id="langues">
+               <h2><i class="fa-solid fa-language"></i>Langues</h2>
+               <div class="contenu-col-lang">
+                  <ul>
+                     <li><i class="fa-solid fa-globe"></i> Français : Experimenté (C2)</li>
+                     <li><i class="fa-solid fa-globe"></i> Anglais : Intermédiaire Supérieur (B2)</li>
+                  </ul>
+               </div>
+            </section>
+
+            <section class="chronologie" id="chronologie">
+               <h2><i class="fa-solid fa-timeline"></i>Mon Parcours</h2>
+
+               <div class="timeline">
+
+                  <div class="timeline-item gauche">
+                     <div class="timeline-point actif"></div>
+                     <div class="timeline-carte actif">
+                        <span class="timeline-date">Sept. 2025 — En cours...</span>
+                        <h3><i class="fa-solid fa-laptop-code"></i> B.U.T MMI</h3>
+                        <p class="timeline-sous-titre">Métiers du Multimédia et de l'Internet</p>
+                        <p>IUT de Haguenau</p>
+                     </div>
+                  </div>
+
+                  <div class="timeline-item droite">
+                     <div class="timeline-point"></div>
+                     <div class="timeline-carte">
+                        <span class="timeline-date">Avr. 2025 — Août 2025</span>
+                        <h3><i class="fa-solid fa-box"></i> Employé de Réserve</h3>
+                        <p class="timeline-sous-titre">Intersport La Vigie</p>
+                        <p>Geispolsheim</p>
+                     </div>
+                  </div>
+
+                  <div class="timeline-item gauche">
+                     <div class="timeline-point"></div>
+                     <div class="timeline-carte">
+                        <span class="timeline-date">Oct. 2024 — Fév. 2025</span>
+                        <h3><i class="fa-solid fa-hands-helping"></i> Service Civique</h3>
+                        <p class="timeline-sous-titre">Domaine de la Culture</p>
+                        <p>Unis-Cité, Strasbourg</p>
+                     </div>
+                  </div>
+
+                  <div class="timeline-item droite">
+                     <div class="timeline-point"></div>
+                     <div class="timeline-carte">
+                        <span class="timeline-date">2023 — 2024</span>
+                        <h3><i class="fa-solid fa-book-open"></i> Licence Sciences Sociales</h3>
+                        <p class="timeline-sous-titre">1ère année</p>
+                        <p>Université de Strasbourg</p>
+                     </div>
+                  </div>
+
+                  <div class="timeline-item gauche">
+                     <div class="timeline-point"></div>
+                     <div class="timeline-carte">
+                        <span class="timeline-date">2020 — 2023</span>
+                        <h3><i class="fa-solid fa-graduation-cap"></i> Baccalauréat Général</h3>
+                        <p class="timeline-sous-titre">HGGSP &amp; SES</p>
+                        <p>Lycée Fustel de Coulanges, Strasbourg</p>
+                     </div>
+                  </div>
+
+               </div>
+            </section>
+         </div>
+      </div>
+   </main>
+
+   <footer>
+      <div class="footer-contenu">
+
+         <div class="footer-col">
+            <p class="footer-nom">Boris Miletic</p>
+            <p class="footer-baseline">Étudiant B.U.T MMI — Développeur Web</p>
+         </div>
+
+         <div class="footer-col">
+            <h4>Contact</h4>
+            <a href="mailto:boris.miletic67@gmail.com"><i class="fa-solid fa-envelope"></i>
+               boris.miletic67@gmail.com</a>
+            <p><i class="fa-solid fa-phone"></i> 07 83 03 71 26</p>
+            <p><i class="fa-solid fa-map-pin"></i> Ostwald (67)</p>
+         </div>
+
+         <div class="footer-col">
+            <h4>Mes Liens</h4>
+            <a href="https://www.linkedin.com/in/boris-miletic-867935315" target="_blank">
+               <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="./download/CV_Boris_MILETIC.pdf" download>
+               <i class="fa-solid fa-download"></i> Télécharger mon CV
+            </a>
+            <a href="./download/CV_graphique_Boris_MILETIC.pdf" download>
+               <i class="fa-solid fa-palette"></i> Télécharger mon CV Graphique
+            </a>
+         </div>
+
+         <div class="footer-col">
+            <h4>Mes Projets</h4>
+            <a href="./site_dishonored/accueil.html" target="_blank">
+               <i class="fa-solid fa-globe"></i> Dishonored Fan Site
+            </a>
+            <a href="http://miletic.alwaysdata.net" target="_blank">
+               <i class="fa-solid fa-globe"></i> ClimbScope
+            </a>
+         </div>
+
+      </div>
+      <div class="footer-bas">
+         <p>&copy; 2025 Boris Miletic — Tous droits réservés</p>
+      </div>
+   </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dishonored - Home</title>
+    <link rel="stylesheet" href="../../styles/reset.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="icon" type="image/png" href="../../images/logo.png">
+</head>
+
+<body>
+
+    <header class="conteneur-large">
+        <div class="header-contenu">
+            <div class="logo">
+                <img src="../../images/logo.png" alt="Dishonored Logo">
+                <h1>Home</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="home.html" class="active">Home</a></li>
+                    <li><a href="thematic.html">The Universe</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="../../accueil.html">FR 🇫🇷</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteneur-main">
+        <div class="main">
+            <section class="flex-ligne">
+                <div class="colonnes">
+                    <h2>Welcome to Dunwall</h2>
+                    <p>
+                        Dishonored is an immersive sim action-adventure series.
+                        You play as a supernatural assassin driven by revenge in a
+                        plague-ridden steampunk world.
+                    </p>
+                    <p>
+                        Your choices determine the fate of the world. Will you succumb
+                        to violence or find another way?
+                    </p>
+                    <ul class="liste-icone">
+                        <li>
+                            <strong>Stealth and Infiltration:</strong>
+                            <p>
+                                Choose shadow over light. Sneak behind guards, traverse the rooftops, and complete your
+                                missions without ever being spotted to earn the title of "Ghost".
+                            </p>
+                        </li>
+                        <li>
+                            <strong>Powers of the Void:</strong>
+                            <p>
+                                The Mark of the Outsider grants you supernatural abilities. Teleport instantly with
+                                Blink, possess your enemies, or freeze time to dominate your opponents.
+                            </p>
+                        </li>
+                        <li>
+                            <strong>Chaos System:</strong>
+                            <p>
+                                Your actions have consequences. A violent and lethal playstyle will increase Chaos,
+                                making the city darker, infested with rats and weepers, ultimately altering the story's
+                                ending.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="colonnes">
+                    <img src="../../images/accueil/corvo.jpg" alt="Corvo Attano with his mask" class="img-accueil">
+                </div>
+            </section>
+
+            <hr>
+
+            <section>
+                <h2>Choose your Destiny</h2>
+                <p>Sign up to receive news from the Outsider.</p>
+
+                <form action="#" method="post">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="nom_utilisateur" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email_utilisateur" required>
+
+                    <label for="message">Your Allegiance:</label>
+                    <select id="message" name="allegeance">
+                        <option value="corvo">Loyalist (Corvo)</option>
+                        <option value="daud">Whaler (Daud)</option>
+                        <option value="delilah">Witch (Delilah)</option>
+                    </select>
+
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="conteneur-large">
+        <p>&copy; 2026 - Web1 Project MMI - Fan site Dishonored</p>
+    </footer>
+
+</body>
+
+</html>

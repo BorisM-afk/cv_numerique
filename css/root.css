@@ -1,0 +1,19 @@
+/* =========================================
+   VARIABLES & BASE
+   ========================================= */
+:root {
+   --bg-main: #141414;
+   --bg-card: #1e1e1e;
+   --bg-card-hover: #252525;
+   --bg-sidebar: #1a1a1a;
+   --rouge: #c8000a;
+   --rouge-vif: #ff1a24;
+   --rouge-sombre: #8a0007;
+   --texte: #e8e8e8;
+   --texte-muted: #999;
+   --bordure: #2e2e2e;
+   --bordure-hover: #c8000a;
+   --sidebar-width: 260px;
+   --radius: 16px;
+   --shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}

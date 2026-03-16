@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dishonored - Accueil</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" type="image/png" href="./images/logo.png">
+</head>
+
+<body>
+
+    <header class="conteneur-large">
+        <div class="header-contenu">
+            <div class="logo">
+                <img src="./images/logo.png" alt="Logo Dishonored">
+                <h1>Accueil</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="accueil.html" class="active">Accueil</a></li>
+                    <li><a href="./langues/fr/thematique.html">L'Univers</a></li>
+                    <li><a href="./langues/fr/galerie.html">Galerie</a></li>
+                    <li><a href="./langues/en/home.html">EN 🇬🇧</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteneur-main">
+        <div class="main">
+            <section class="flex-ligne">
+                <div class="colonnes">
+                    <h2>Bienvenue à Dunwall</h2>
+                    <p>
+                        Dishonored est une série de jeux d'action-aventure immersive sim.
+                        Vous incarnez un assassin surnaturel poussé par la vengeance dans un monde
+                        steampunk ravagé par la peste.
+                    </p>
+                    <p>
+                        Vos choix déterminent le destin du monde. Allez-vous succomber à la violence
+                        ou trouver une autre voie ?
+                    </p>
+                    <ul class="liste-icone">
+                        <li><strong>Infiltration et discrétion:</strong>
+                            <p>
+                                Choisissez l'ombre plutôt que la lumière. Faufilez-vous
+                                derrière les gardes, empruntez les toits et finissez vos missions sans jamais être
+                                repéré
+                                pour obtenir le titre de "Fantôme".
+                            </p>
+                        </li>
+                        <li><strong>Pouvoirs du Grand Vide:</strong>
+                            <p>
+                                La Marque de l'Outsider vous octroie des capacités surnaturelles.
+                                Téléportez-vous instantanément avec le Clignement, possédez vos ennemis ou figez le
+                                temps
+                                pour dominer vos adversaires.
+                            </p>
+                        </li>
+                        <li><strong>Système de chaos:</strong>
+                            <p>
+                                Vos actions ont des conséquences. Un style de jeu violent et meurtrier
+                                augmentera le Chaos, rendant la ville plus sombre, infestée de rats et de pestiférés,
+                                modifiant ainsi la fin de l'histoire.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="colonnes">
+                    <img src="./images/accueil/corvo.jpg" alt="Corvo Attano avec son masque" class="img-accueil">
+                </div>
+            </section>
+
+            <hr>
+
+            <section>
+                <h2>Choisissez votre Destin</h2>
+                <p>Inscrivez-vous pour recevoir des nouvelles de l'Outsider.</p>
+
+                <form action="#" method="post">
+                    <label for="name">Votre Nom :</label>
+                    <input type="text" id="name" name="nom_utilisateur" required>
+
+                    <label for="email">Votre Email :</label>
+                    <input type="email" id="email" name="email_utilisateur" required>
+
+                    <label for="message">Votre Allégeance :</label>
+                    <select id="message" name="allegeance">
+                        <option value="corvo">Loyaliste (Corvo)</option>
+                        <option value="daud">Whaler (Daud)</option>
+                        <option value="delilah">Sorcière (Delilah)</option>
+                    </select>
+
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="conteneur-large">
+        <p>&copy; 2026 - Projet Web1 MMI - Fan site Dishonored</p>
+    </footer>
+
+</body>
+
+</html>

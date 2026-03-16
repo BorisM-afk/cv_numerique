@@ -1,0 +1,93 @@
+/* =========================================
+   Reset CSS Moderne
+   ========================================= */
+
+/* 1. Utiliser un modèle de boîte plus intuitif */
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+/* 2. Supprimer les marges et paddings par défaut sur tout */
+* {
+   margin: 0;
+   padding: 0;
+}
+
+/* 3. Supprimer les puces des listes par défaut */
+ul,
+ol {
+   list-style: none;
+}
+
+/* 4. Rendre le défilement plus doux pour les ancres */
+html:focus-within {
+   scroll-behavior: smooth;
+}
+
+/* 5. Configuration de base du body */
+body {
+   min-height: 100vh;
+   text-rendering: optimizeSpeed;
+   line-height: 1.5;
+   /* Laisse le navigateur gérer le crénelage pour un texte plus net */
+   -webkit-font-smoothing: antialiased;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* 6. Améliorer la lisibilité des liens sans classe */
+a:not([class]) {
+   text-decoration-skip-ink: auto;
+}
+
+/* 7. Comportement responsive pour les médias */
+img,
+picture,
+video,
+canvas,
+svg {
+   max-width: 100%;
+   display: block;
+   /* Évite l'espace vide sous les images */
+}
+
+/* 8. Éviter les dépassements de texte */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   overflow-wrap: break-word;
+}
+
+/* 9. Forcer les éléments de formulaire à hériter de la typographie */
+input,
+button,
+textarea,
+select {
+   font: inherit;
+}
+
+/* 10. Supprimer la bordure des iframe */
+iframe {
+   border: none;
+}
+
+/* 11. Accessibilité : Désactiver les animations pour les utilisateurs qui y sont sensibles */
+@media (prefers-reduced-motion: reduce) {
+   html:focus-within {
+      scroll-behavior: auto;
+   }
+
+   *,
+   *::before,
+   *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+   }
+}
